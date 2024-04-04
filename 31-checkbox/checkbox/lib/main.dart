@@ -1,6 +1,5 @@
 
 import 'package:checkbox/3101.dart';
-import 'package:checkbox/3102.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: mycheckbox1(),
+      home: mycheckbox(),
     );
   }
 }
