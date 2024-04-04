@@ -24,7 +24,7 @@ class MySnackBar extends StatelessWidget {
                     style: TextStyle(color: Colors.white),
                   ),
                   backgroundColor: Colors.brown,
-                  duration: Duration(seconds: 10),
+                  duration: Duration(seconds: 20),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
