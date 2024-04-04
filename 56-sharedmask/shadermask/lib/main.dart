@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:shadermask/5601.dart';
+import 'package:shadermask/shadermask_5601.dart';
 void main() {
   runApp(const MyApp());
 }

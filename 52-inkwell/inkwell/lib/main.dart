@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:inkwell/5201.dart';
+import 'package:inkwell/inkwell_5201.dart';
 void main() {
   runApp(const MyApp());
 }

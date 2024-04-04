@@ -1,7 +1,6 @@
 
 
-
-import 'package:cliprrect/5501.dart';
+import 'package:cliprrect/cliprect_5501.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
