@@ -21,7 +21,8 @@ class _MyTweenState extends State<MyTween> with SingleTickerProviderStateMixin {
       duration: Duration(seconds: 2),
     );
 
-    animation = Tween<double>(begin: 100.0, end: 200.0).animate(animationController);
+    animation =
+        Tween<double>(begin: 100.0, end: 200.0).animate(animationController);
     colorAnimation = ColorTween(begin: Colors.blue, end: Colors.blue)
         .animate(animationController);
 
@@ -52,7 +53,7 @@ class _MyTweenState extends State<MyTween> with SingleTickerProviderStateMixin {
             color: colorAnimation.value,
             child: Center(
               child: Text(
-                'clicl the animation !',
+                'click the animation !',
                 style: TextStyle(color: Colors.white),
               ),
             ),
